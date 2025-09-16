@@ -59,14 +59,14 @@ export default function Lab1() {
                 <ul id="wd-my-books">
                     <li>Dune</li>
                     <li>Lord of the Rings</li>
-                    <li>Ender's Game</li>
+                    <li>Ender&apos;s Game</li>
                     <li>Red Mars</li>
                     <li>The Forever War</li>
                 </ul>
                 Your favorite books (in no particular order)
                 <ul id="wd-your-books">
                     <li>Crime and Punishment</li>
-                    <li>On Earth We're Briefly Gorgeous</li>
+                    <li>On Earth We&apos;re Briefly Gorgeous</li>
                     <li>Harry Potter and the Prisoner of Azkaban</li>
                     <li>Normal People</li>
                     <li>A Little Life</li>
