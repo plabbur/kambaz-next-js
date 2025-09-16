@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
-import KambazNavigation from "./Navigation";
-export default function KambazLayout({ children }: { children: ReactNode }) {
+import KambazNavigation from "./navigation";
+export default function KambazLayout({ children }: Readonly<{ children: ReactNode }>) {
     return (
         <table>
             <tbody>
