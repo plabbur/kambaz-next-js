@@ -35,7 +35,7 @@ export default function Assignments() {
                 ASSIGNMENTS 40% of Total <button>+</button> </h3>
             <ul id="wd-assignment-list">
                 {assignments.map((assignment) => (
-                    <li className="wd-assignment-list-item">
+                    <li className="wd-assignment-list-item" key={assignment.aid}>
                         <Link href={`/Courses/${assignment.cid}/Assignments/${assignment.aid}`} className="wd-assignment-link" >
                             {assignment.name}
                         </Link>
